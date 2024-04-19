@@ -6,7 +6,12 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --port 3000 --open",
     "build": "webpack --mode development --verbose --colors --display-error-details",
-    "deploy": "node deploy-to-github.js"
+    "deploy": "node deploy-to-github.js",
+    "test":{
+      "scripts": {
+        "test": "jest"
+      }
+    }
   },
   "repository": {
     "type": "git",
